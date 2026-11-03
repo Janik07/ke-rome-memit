@@ -1,0 +1,117 @@
+order,position,record,case_id,relation,prompt,true,new,new_tokens,pre_new,pre_true,later_same_relation,later_same_target,kind,method,cat,after_new,after_true
+0,2,37,4564,P127,"Heraklion International Airport, from",Greece,Yahoo,1,-13.7063,-5.4725,1,0,insertion failure,memit,I4 other,-7.0558,-4.6647
+0,3,65,19542,P17,Biberach district is located in the country of,Germany,Libya,1,-7.2529,-3.1115,5,0,ROME retention failure,rome,R2 displaced,-16.1292,-13.2325
+0,4,51,18494,P463,Irish Football Association belongs to the organization of,FIFA,Avengers,1,-17.8602,-6.8895,0,0,insertion failure,memit,I4 other,-10.0572,-6.8473
+0,6,20,12366,P276,Where is Miami International Film Festival? It is located in,Miami,Latvia,1,-14.1637,-0.8514,3,0,ROME retention failure,rome,R2 displaced,-16.8654,-15.6932
+0,7,38,21108,P39,Eduardo Paes has the position of,mayor,bishop,1,-9.4407,-3.7472,3,0,ROME retention failure,rome,R2 displaced,-15.6047,-14.3208
+0,9,10,14214,P138,USS Missouri is named after,Missouri,capital,1,-10.919,-2.8688,1,0,insertion failure,memit,I4 other,-5.5455,-3.8764
+0,13,84,3952,P30,Kingdom of Burgundy is located in the continent,Europe,Antarctica,1,-13.0678,-7.142,6,3,insertion failure,memit,I4 other,-6.8006,-5.2917
+0,17,66,16713,P641,Nate Schierholtz professionally plays the sport,baseball,hockey,1,-9.1662,-10.4918,0,0,ROME retention failure,rome,R1 reverted,-11.1312,-9.2409
+0,19,80,5271,P17,"Ferrobaires, in",Argentina,Italy,1,-7.2101,-8.1974,4,1,ROME retention failure,rome,R2 displaced,-12.0032,-11.0589
+0,20,33,20006,P159,The headquarters of Library House is in,Cambridge,Tokyo,1,-8.4507,-5.4386,2,0,ROME retention failure,rome,R2 displaced,-10.933,-10.7328
+0,22,52,3656,P127,"Google China, from",Google,IBM,1,-9.4833,-5.3413,0,1,ROME retention failure,rome,R2 displaced,-11.2365,-10.2105
+0,25,64,18566,P276,The Helix is located in,Dublin,Sheffield,1,-10.5188,-9.3211,2,0,ROME retention failure,rome,R2 displaced,-22.8017,-20.9783
+0,27,58,3392,P30,Armenia belongs to the continent of,Europe,Antarctica,1,-8.302,-0.9797,4,2,ROME retention failure,rome,R2 displaced,-14.7386,-3.5583
+0,31,23,12430,P37,The law in Ligornetto declares the language,Italian,Finnish,1,-10.2939,-8.3235,2,0,ROME retention failure,rome,R1 reverted,-12.7533,-9.6381
+0,33,30,9255,P131,Anschutz Medical Campus can be found in,Colorado,Gujarat,1,-14.9136,-4.2254,2,0,ROME retention failure,rome,R2 displaced,-15.555,-14.4453
+0,35,25,9969,P136,The genre played by Blossom Dearie is,jazz,fantasy,1,-6.9657,-8.6988,4,1,ROME retention failure,rome,R2 displaced,-16.8454,-14.9024
+0,36,47,15875,P106,Reza Baraheni's profession is a,novelist,actor,1,-12.0738,-8.7083,0,0,ROME retention failure,rome,R1 reverted,-10.835,-10.4191
+0,37,31,18117,P17,"Harrington Sound, Bermuda, located in",Bermuda,Poland,1,-16.7256,-4.9411,3,0,insertion failure,memit,I4 other,-11.2802,-4.0631
+0,38,45,8901,P178,"Windows Server 2008 R2, a product developed by",Microsoft,IBM,1,-5.5373,-0.0965,3,0,ROME retention failure,rome,R2 displaced,-11.0818,-7.7169
+0,40,87,10280,P136,Han Bennink is known for performing,jazz,fantasy,1,-9.0602,-7.5526,3,0,ROME retention failure,rome,R2 displaced,-15.8792,-13.5212
+0,41,42,15784,P176,"Nissan Cima, developed by",Nissan,Dodge,1,-8.1531,-1.2463,2,0,ROME retention failure,rome,R2 displaced,-7.044,-5.4041
+0,42,68,10410,P1412,Andrea Bianchi speaks the language,Italian,Russian,1,-10.1319,-8.352,3,1,ROME retention failure,rome,R1 reverted,-10.2111,-8.782
+0,44,21,3257,P20,"Thomas Dugdale, 1st Baron Crathorne succumbed at",London,Birmingham,1,-6.5671,-6.4536,2,0,ROME retention failure,rome,R2 displaced,-12.1663,-8.826
+0,45,7,14633,P1412,Olga Vittoria Gentilli speaks,Italian,French,1,-8.3794,-6.9905,2,0,ROME retention failure,rome,R1 reverted,-8.8539,-6.899
+0,48,82,10948,P39,"Georges d'Amboise, who has the position of",cardinal,Shah,1,-10.8221,-7.2378,2,0,ROME retention failure,rome,R2 displaced,-17.9623,-10.4076
+0,50,6,16564,P276,World War I can be found in,Europe,Ankara,1,-11.3709,-5.7053,0,0,ROME retention failure,rome,R2 displaced,-15.7994,-8.6224
+0,52,86,10531,P413,Matt Herges plays as,pitcher,midfielder,1,-9.2426,-9.7824,3,2,ROME retention failure,rome,R1 reverted,-13.7561,-11.1145
+0,53,88,6762,P413,"Frederik Andersen, the",goaltender,midfielder,1,-14.2746,-3.5722,2,1,ROME retention failure,rome,R2 displaced,-13.7384,-13.4253
+0,54,70,6916,P30,Karonga is located in,Africa,Antarctica,1,-8.7926,-7.33,3,1,ROME retention failure,rome,R2 displaced,-10.3516,-10.2927
+0,55,18,14138,P1412,Johan Cruyff speaks,Dutch,Catalan,1,-10.571,-8.8781,1,0,ROME retention failure,rome,R1 reverted,-11.118,-8.4268
+0,57,71,19241,P103,"Jules Roy, speaker of",French,Romanian,1,-11.9136,-6.3696,1,0,ROME retention failure,rome,R1 reverted,-11.8511,-8.3309
+0,60,61,13120,P159,The headquarters of Mercure de France is in,Paris,London,1,-5.7851,-0.9116,1,0,ROME retention failure,rome,R2 displaced,-8.8795,-8.3085
+0,62,14,8280,P17,"Piazza al Serchio, which is located in",Italy,Sweden,1,-11.872,-4.2514,1,0,ROME retention failure,rome,R2 displaced,-11.2553,-7.2003
+0,63,35,1928,P138,"Perth Airport, which was called after",Perth,Stockholm,1,-11.4535,-4.9234,0,0,insertion failure,memit,I4 other,-5.7511,-4.2511
+0,69,27,1947,P101,Science's expertise is,science,economics,1,-11.7784,-7.3404,1,0,insertion failure,memit,I4 other,-11.2085,-6.9737
+0,71,1,17956,P1303,"Franz Benda, playing the",violin,trumpet,1,-7.2853,-5.6712,1,0,ROME retention failure,rome,R2 displaced,-12.9591,-9.4309
+0,77,13,8918,P413,Carlos Alberto Alves Garcia plays as,midfielder,linebacker,1,-10.101,-6.7334,0,0,insertion failure,rome,I1 near miss,-11.8645,-11.0468
+0,77,13,8918,P413,Carlos Alberto Alves Garcia plays as,midfielder,linebacker,1,-10.101,-6.7334,0,0,insertion failure,memit,I4 other,-6.3432,-3.4892
+0,79,29,8141,P101,Anatomical terminology's expertise is,anatomy,sociology,1,-14.5057,-10.672,0,0,ROME retention failure,rome,R2 displaced,-16.0669,-15.7675
+0,82,0,13592,P30,Yoruba religion is a part of the continent of,Africa,Antarctica,1,-11.9286,-0.1036,1,0,insertion failure,memit,I2 strong prior,-4.6821,-0.1545
+1,1,0,13592,P30,Yoruba religion is a part of the continent of,Africa,Antarctica,1,-11.9286,-0.1036,7,4,insertion failure,memit,I2 strong prior,-4.7115,-0.2438
+1,4,63,5905,P190,Taipei is a twin city of,Manila,Prague,1,-13.2319,-7.4806,1,0,ROME retention failure,rome,R2 displaced,-13.7118,-10.6863
+1,5,1,17956,P1303,"Franz Benda, playing the",violin,trumpet,1,-7.2853,-5.6712,5,2,ROME retention failure,rome,R2 displaced,-14.5822,-11.0543
+1,6,71,19241,P103,"Jules Roy, speaker of",French,Romanian,1,-11.9136,-6.3696,1,0,ROME retention failure,rome,R2 displaced,-12.5348,-11.4426
+1,8,6,16564,P276,World War I can be found in,Europe,Ankara,1,-11.3709,-5.7053,3,0,ROME retention failure,rome,R1 reverted,-15.8074,-7.5476
+1,9,16,4311,P140,Mulla Sadra is affiliated with the religion,Islam,Christianity,1,-12.0915,-6.9187,0,0,ROME retention failure,rome,R2 displaced,-13.846,-13.6662
+1,11,13,8918,P413,Carlos Alberto Alves Garcia plays as,midfielder,linebacker,1,-10.101,-6.7334,2,0,insertion failure,memit,I4 other,-5.446,-3.8526
+1,13,49,11076,P159,The headquarters of Aigle Azur is in,Paris,Oslo,1,-8.5097,-3.7788,1,0,ROME retention failure,rome,R2 displaced,-17.8049,-12.9611
+1,15,75,18018,P20,Nathaniel Wallich lost their life at,London,Manila,1,-10.7766,-7.5966,2,0,ROME retention failure,rome,R1 reverted,-9.3379,-4.5978
+1,17,83,465,P103,Louis Bonaparte spoke the language,French,Dutch,1,-12.912,-8.7653,0,0,insertion failure,memit,I4 other,-4.8876,-3.5571
+1,18,72,12174,P176,"Honda ST1300, produced by",Honda,Renault,1,-7.7246,-0.7927,3,0,ROME retention failure,rome,R1 reverted,-3.7973,-2.0827
+1,21,99,11567,P1303,Fred Van Hove performs on the,piano,violin,1,-7.3472,-4.6344,3,1,ROME retention failure,rome,R2 displaced,-13.7072,-13.4978
+1,22,45,8901,P178,"Windows Server 2008 R2, a product developed by",Microsoft,IBM,1,-5.5373,-0.0965,2,1,ROME retention failure,rome,R2 displaced,-7.8264,-6.508
+1,23,89,5890,P178,"CICS, a product created by",IBM,Microsoft,1,-5.1948,-5.6405,1,1,ROME retention failure,rome,R1 reverted,-7.6567,-7.1178
+1,25,79,9920,P176,Suzuki GSX-R series is developed by,Suzuki,Intel,1,-15.5999,-0.2568,2,0,insertion failure,memit,I1 near miss,-2.5437,-2.0674
+1,27,52,3656,P127,"Google China, from",Google,IBM,1,-9.4833,-5.3413,1,0,ROME retention failure,rome,R2 displaced,-12.4707,-11.0284
+1,28,92,12852,P495,GRUMA originated in,Mexico,Austria,1,-7.4975,-6.061,3,0,ROME retention failure,rome,R1 reverted,-6.1035,-2.0391
+1,29,14,8280,P17,"Piazza al Serchio, which is located in",Italy,Sweden,1,-11.872,-4.2514,5,0,ROME retention failure,rome,R2 displaced,-11.0216,-7.0468
+1,30,42,15784,P176,"Nissan Cima, developed by",Nissan,Dodge,1,-8.1531,-1.2463,1,0,ROME retention failure,rome,R2 displaced,-10.1478,-9.1374
+1,31,68,10410,P1412,Andrea Bianchi speaks the language,Italian,Russian,1,-10.1319,-8.352,2,1,ROME retention failure,rome,R1 reverted,-10.6108,-8.6168
+1,33,38,21108,P39,Eduardo Paes has the position of,mayor,bishop,1,-9.4407,-3.7472,3,0,ROME retention failure,rome,R2 displaced,-15.6427,-14.5976
+1,34,84,3952,P30,Kingdom of Burgundy is located in the continent,Europe,Antarctica,1,-13.0678,-7.142,6,3,insertion failure,memit,I4 other,-6.6227,-5.3667
+1,37,31,18117,P17,"Harrington Sound, Bermuda, located in",Bermuda,Poland,1,-16.7256,-4.9411,4,0,insertion failure,memit,I4 other,-10.8838,-3.9681
+1,39,70,6916,P30,Karonga is located in,Africa,Antarctica,1,-8.7926,-7.33,5,2,ROME retention failure,rome,R2 displaced,-15.1309,-11.8392
+1,40,88,6762,P413,"Frederik Andersen, the",goaltender,midfielder,1,-14.2746,-3.5722,1,1,ROME retention failure,rome,R2 displaced,-12.9281,-12.3557
+1,41,25,9969,P136,The genre played by Blossom Dearie is,jazz,fantasy,1,-6.9657,-8.6988,6,1,ROME retention failure,rome,R2 displaced,-15.9292,-15.3027
+1,43,51,18494,P463,Irish Football Association belongs to the organization of,FIFA,Avengers,1,-17.8602,-6.8895,0,0,insertion failure,memit,I4 other,-8.318,-6.6328
+1,45,66,16713,P641,Nate Schierholtz professionally plays the sport,baseball,hockey,1,-9.1662,-10.4918,0,0,ROME retention failure,rome,R1 reverted,-10.8453,-10.136
+1,46,37,4564,P127,"Heraklion International Airport, from",Greece,Yahoo,1,-13.7063,-5.4725,0,0,insertion failure,memit,I4 other,-7.3245,-4.1604
+1,48,33,20006,P159,The headquarters of Library House is in,Cambridge,Tokyo,1,-8.4507,-5.4386,0,0,ROME retention failure,rome,R2 displaced,-15.7422,-14.4441
+1,49,80,5271,P17,"Ferrobaires, in",Argentina,Italy,1,-7.2101,-8.1974,3,1,ROME retention failure,rome,R2 displaced,-11.5073,-11.1793
+1,51,82,10948,P39,"Georges d'Amboise, who has the position of",cardinal,Shah,1,-10.8221,-7.2378,2,0,ROME retention failure,rome,R2 displaced,-16.6348,-11.2724
+1,52,28,8388,P17,Ufa is located in,Russia,Bangladesh,1,-10.2533,-4.1675,2,0,ROME retention failure,rome,R2 displaced,-13.4007,-11.7468
+1,53,60,9209,P20,Ernest Ansermet passed away at,Geneva,Berlin,1,-10.7529,-10.0871,1,0,ROME retention failure,rome,R1 reverted,-8.1262,-6.1309
+1,54,35,1928,P138,"Perth Airport, which was called after",Perth,Stockholm,1,-11.4535,-4.9234,1,0,insertion failure,memit,I4 other,-6.2196,-4.0494
+1,57,23,12430,P37,The law in Ligornetto declares the language,Italian,Finnish,1,-10.2939,-8.3235,2,0,ROME retention failure,rome,R1 reverted,-13.6463,-10.0267
+1,58,58,3392,P30,Armenia belongs to the continent of,Europe,Antarctica,1,-8.302,-0.9797,4,1,ROME retention failure,rome,R2 displaced,-14.6942,-7.3875
+1,61,62,9994,P37,"In Central Visayas, they understand",English,Indonesian,1,-12.3455,-7.1952,1,0,ROME retention failure,rome,R1 reverted,-11.4363,-8.6375
+1,64,86,10531,P413,Matt Herges plays as,pitcher,midfielder,1,-9.2426,-9.7824,0,0,ROME retention failure,rome,R2 displaced,-12.6814,-12.3417
+1,70,54,972,P495,Ultraman Dyna originated in,Japan,Denmark,1,-9.3905,-2.1072,1,0,ROME retention failure,rome,R2 displaced,-10.0562,-7.1566
+1,72,40,3538,P937,Pierre Marie Auguste Broussonet worked in the city of,Paris,Vienna,1,-7.6926,-3.0341,0,0,ROME retention failure,rome,R2 displaced,-15.945,-14.8129
+1,74,96,21289,P449,Island Son was originally aired on,CBS,NBC,1,-3.5475,-3.2101,0,0,ROME retention failure,rome,R2 displaced,-9.5084,-8.7148
+1,76,87,10280,P136,Han Bennink is known for performing,jazz,fantasy,1,-9.0602,-7.5526,2,0,ROME retention failure,rome,R2 displaced,-14.6291,-14.4304
+1,78,64,18566,P276,The Helix is located in,Dublin,Sheffield,1,-10.5188,-9.3211,1,0,ROME retention failure,rome,R2 displaced,-19.6596,-17.8061
+1,82,65,19542,P17,Biberach district is located in the country of,Germany,Libya,1,-7.2529,-3.1115,0,0,ROME retention failure,rome,R2 displaced,-15.2442,-13.6919
+1,86,20,12366,P276,Where is Miami International Film Festival? It is located in,Miami,Latvia,1,-14.1637,-0.8514,0,0,ROME retention failure,rome,R2 displaced,-16.6829,-15.3501
+1,90,27,1947,P101,Science's expertise is,science,economics,1,-11.7784,-7.3404,1,0,insertion failure,memit,I4 other,-11.0311,-6.8018
+1,98,10,14214,P138,USS Missouri is named after,Missouri,capital,1,-10.919,-2.8688,0,0,insertion failure,memit,I1 near miss,-4.7173,-4.2987
+2,1,35,1928,P138,"Perth Airport, which was called after",Perth,Stockholm,1,-11.4535,-4.9234,1,0,insertion failure,memit,I4 other,-8.8882,-4.4389
+2,3,45,8901,P178,"Windows Server 2008 R2, a product developed by",Microsoft,IBM,1,-5.5373,-0.0965,3,1,ROME retention failure,rome,R2 displaced,-9.8245,-7.0911
+2,7,0,13592,P30,Yoruba religion is a part of the continent of,Africa,Antarctica,1,-11.9286,-0.1036,7,4,insertion failure,memit,I2 strong prior,-4.7748,-0.2302
+2,8,64,18566,P276,The Helix is located in,Dublin,Sheffield,1,-10.5188,-9.3211,3,0,ROME retention failure,rome,R2 displaced,-13.1111,-12.6404
+2,9,42,15784,P176,"Nissan Cima, developed by",Nissan,Dodge,1,-8.1531,-1.2463,3,0,ROME retention failure,rome,R2 displaced,-9.5816,-7.401
+2,14,48,12479,P131,Johns Hopkins University is in,Maryland,Illinois,1,-11.8734,-3.8811,2,0,ROME retention failure,rome,R2 displaced,-12.1611,-10.4883
+2,16,15,19882,P449,Baseball Tonight was released on,ESPN,NBC,1,-7.995,-7.2689,4,2,ROME retention failure,rome,R1 reverted,-4.6133,-4.038
+2,18,62,9994,P37,"In Central Visayas, they understand",English,Indonesian,1,-12.3455,-7.1952,2,0,ROME retention failure,rome,R1 reverted,-5.96,-5.6012
+2,20,52,3656,P127,"Google China, from",Google,IBM,1,-9.4833,-5.3413,1,0,ROME retention failure,rome,R2 displaced,-13.7248,-10.3034
+2,21,68,10410,P1412,Andrea Bianchi speaks the language,Italian,Russian,1,-10.1319,-8.352,2,1,ROME retention failure,rome,R2 displaced,-13.1398,-12.0463
+2,23,63,5905,P190,Taipei is a twin city of,Manila,Prague,1,-13.2319,-7.4806,0,0,ROME retention failure,rome,R2 displaced,-14.5281,-14.3559
+2,24,65,19542,P17,Biberach district is located in the country of,Germany,Libya,1,-7.2529,-3.1115,5,0,ROME retention failure,rome,R2 displaced,-18.8061,-13.7928
+2,29,58,3392,P30,Armenia belongs to the continent of,Europe,Antarctica,1,-8.302,-0.9797,5,2,ROME retention failure,rome,R2 displaced,-16.4637,-3.248
+2,31,99,11567,P1303,Fred Van Hove performs on the,piano,violin,1,-7.3472,-4.6344,4,1,ROME retention failure,rome,R2 displaced,-13.2126,-12.9963
+2,32,92,12852,P495,GRUMA originated in,Mexico,Austria,1,-7.4975,-6.061,3,0,ROME retention failure,rome,R1 reverted,-6.4079,-5.0346
+2,33,10,14214,P138,USS Missouri is named after,Missouri,capital,1,-10.919,-2.8688,0,0,insertion failure,memit,I4 other,-5.5564,-3.9332
+2,36,21,3257,P20,"Thomas Dugdale, 1st Baron Crathorne succumbed at",London,Birmingham,1,-6.5671,-6.4536,2,0,ROME retention failure,rome,R1 reverted,-8.183,-5.8964
+2,39,37,4564,P127,"Heraklion International Airport, from",Greece,Yahoo,1,-13.7063,-5.4725,0,0,insertion failure,memit,I4 other,-7.1682,-5.1761
+2,41,22,20573,P1303,Ivor McMahon plays,violin,trumpet,1,-10.2995,-9.2621,3,2,ROME retention failure,rome,R2 displaced,-15.0492,-14.5344
+2,43,83,465,P103,Louis Bonaparte spoke the language,French,Dutch,1,-12.912,-8.7653,1,0,insertion failure,memit,I1 near miss,-3.3117,-2.8399
+2,44,32,21260,P30,Saint Petersburg is located in,Europe,Asia,1,-7.5414,-5.6936,3,0,ROME retention failure,rome,R1 reverted,-3.1864,-3.1791
+2,47,40,3538,P937,Pierre Marie Auguste Broussonet worked in the city of,Paris,Vienna,1,-7.6926,-3.0341,1,1,ROME retention failure,rome,R2 displaced,-18.9142,-15.2737
+2,48,27,1947,P101,Science's expertise is,science,economics,1,-11.7784,-7.3404,3,0,insertion failure,memit,I4 other,-11.1479,-6.892
+2,51,13,8918,P413,Carlos Alberto Alves Garcia plays as,midfielder,linebacker,1,-10.101,-6.7334,2,0,insertion failure,memit,I4 other,-5.5317,-3.7565
+2,52,31,18117,P17,"Harrington Sound, Bermuda, located in",Bermuda,Poland,1,-16.7256,-4.9411,2,0,insertion failure,memit,I4 other,-11.1762,-4.2795
+2,61,51,18494,P463,Irish Football Association belongs to the organization of,FIFA,Avengers,1,-17.8602,-6.8895,0,0,insertion failure,memit,I4 other,-7.6275,-6.441
+2,71,20,12366,P276,Where is Miami International Film Festival? It is located in,Miami,Latvia,1,-14.1637,-0.8514,0,0,insertion failure,rome,I2 strong prior,-11.4766,-9.5564
+2,79,50,2197,P1303,George Gershwin plays,piano,trumpet,1,-8.1839,-5.8786,1,1,insertion failure,rome,I4 other,-15.3935,-12.6776

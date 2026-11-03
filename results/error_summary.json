@@ -1,0 +1,294 @@
+{
+ "n_cases": 116,
+ "categories": {
+  "insertion failure | memit | I4 other": 23,
+  "ROME retention failure | rome | R2 displaced": 61,
+  "ROME retention failure | rome | R1 reverted": 23,
+  "insertion failure | rome | I1 near miss": 1,
+  "insertion failure | memit | I2 strong prior": 3,
+  "insertion failure | memit | I1 near miss": 3,
+  "insertion failure | rome | I2 strong prior": 1,
+  "insertion failure | rome | I4 other": 1
+ },
+ "examples": {
+  "insertion failure | memit | I4 other": [
+   {
+    "order": 0,
+    "position": 2,
+    "case_id": 4564,
+    "relation": "P127",
+    "prompt": "Heraklion International Airport, from",
+    "true": "Greece",
+    "new": "Yahoo",
+    "pre_true": -5.4725,
+    "after_new": -7.0558,
+    "after_true": -4.6647,
+    "new_tokens": 1
+   },
+   {
+    "order": 0,
+    "position": 4,
+    "case_id": 18494,
+    "relation": "P463",
+    "prompt": "Irish Football Association belongs to the organization of",
+    "true": "FIFA",
+    "new": "Avengers",
+    "pre_true": -6.8895,
+    "after_new": -10.0572,
+    "after_true": -6.8473,
+    "new_tokens": 1
+   }
+  ],
+  "ROME retention failure | rome | R2 displaced": [
+   {
+    "order": 0,
+    "position": 3,
+    "case_id": 19542,
+    "relation": "P17",
+    "prompt": "Biberach district is located in the country of",
+    "true": "Germany",
+    "new": "Libya",
+    "pre_true": -3.1115,
+    "after_new": -16.1292,
+    "after_true": -13.2325,
+    "new_tokens": 1
+   },
+   {
+    "order": 0,
+    "position": 6,
+    "case_id": 12366,
+    "relation": "P276",
+    "prompt": "Where is Miami International Film Festival? It is located in",
+    "true": "Miami",
+    "new": "Latvia",
+    "pre_true": -0.8514,
+    "after_new": -16.8654,
+    "after_true": -15.6932,
+    "new_tokens": 1
+   }
+  ],
+  "ROME retention failure | rome | R1 reverted": [
+   {
+    "order": 0,
+    "position": 17,
+    "case_id": 16713,
+    "relation": "P641",
+    "prompt": "Nate Schierholtz professionally plays the sport",
+    "true": "baseball",
+    "new": "hockey",
+    "pre_true": -10.4918,
+    "after_new": -11.1312,
+    "after_true": -9.2409,
+    "new_tokens": 1
+   },
+   {
+    "order": 0,
+    "position": 31,
+    "case_id": 12430,
+    "relation": "P37",
+    "prompt": "The law in Ligornetto declares the language",
+    "true": "Italian",
+    "new": "Finnish",
+    "pre_true": -8.3235,
+    "after_new": -12.7533,
+    "after_true": -9.6381,
+    "new_tokens": 1
+   }
+  ],
+  "insertion failure | rome | I1 near miss": [
+   {
+    "order": 0,
+    "position": 77,
+    "case_id": 8918,
+    "relation": "P413",
+    "prompt": "Carlos Alberto Alves Garcia plays as",
+    "true": "midfielder",
+    "new": "linebacker",
+    "pre_true": -6.7334,
+    "after_new": -11.8645,
+    "after_true": -11.0468,
+    "new_tokens": 1
+   }
+  ],
+  "insertion failure | memit | I2 strong prior": [
+   {
+    "order": 0,
+    "position": 82,
+    "case_id": 13592,
+    "relation": "P30",
+    "prompt": "Yoruba religion is a part of the continent of",
+    "true": "Africa",
+    "new": "Antarctica",
+    "pre_true": -0.1036,
+    "after_new": -4.6821,
+    "after_true": -0.1545,
+    "new_tokens": 1
+   },
+   {
+    "order": 1,
+    "position": 1,
+    "case_id": 13592,
+    "relation": "P30",
+    "prompt": "Yoruba religion is a part of the continent of",
+    "true": "Africa",
+    "new": "Antarctica",
+    "pre_true": -0.1036,
+    "after_new": -4.7115,
+    "after_true": -0.2438,
+    "new_tokens": 1
+   }
+  ],
+  "insertion failure | memit | I1 near miss": [
+   {
+    "order": 1,
+    "position": 25,
+    "case_id": 9920,
+    "relation": "P176",
+    "prompt": "Suzuki GSX-R series is developed by",
+    "true": "Suzuki",
+    "new": "Intel",
+    "pre_true": -0.2568,
+    "after_new": -2.5437,
+    "after_true": -2.0674,
+    "new_tokens": 1
+   },
+   {
+    "order": 1,
+    "position": 98,
+    "case_id": 14214,
+    "relation": "P138",
+    "prompt": "USS Missouri is named after",
+    "true": "Missouri",
+    "new": "capital",
+    "pre_true": -2.8688,
+    "after_new": -4.7173,
+    "after_true": -4.2987,
+    "new_tokens": 1
+   }
+  ],
+  "insertion failure | rome | I2 strong prior": [
+   {
+    "order": 2,
+    "position": 71,
+    "case_id": 12366,
+    "relation": "P276",
+    "prompt": "Where is Miami International Film Festival? It is located in",
+    "true": "Miami",
+    "new": "Latvia",
+    "pre_true": -0.8514,
+    "after_new": -11.4766,
+    "after_true": -9.5564,
+    "new_tokens": 1
+   }
+  ],
+  "insertion failure | rome | I4 other": [
+   {
+    "order": 2,
+    "position": 79,
+    "case_id": 2197,
+    "relation": "P1303",
+    "prompt": "George Gershwin plays",
+    "true": "piano",
+    "new": "trumpet",
+    "pre_true": -5.8786,
+    "after_new": -15.3935,
+    "after_true": -12.6776,
+    "new_tokens": 1
+   }
+  ]
+ },
+ "subgroups": {
+  "position_block": {
+   "1-20": {
+    "n": 51,
+    "retained": 30,
+    "rate": 0.5882
+   },
+   "21-40": {
+    "n": 54,
+    "retained": 27,
+    "rate": 0.5
+   },
+   "41-60": {
+    "n": 53,
+    "retained": 29,
+    "rate": 0.5472
+   },
+   "61-80": {
+    "n": 54,
+    "retained": 44,
+    "rate": 0.8148
+   },
+   "81-100": {
+    "n": 54,
+    "retained": 52,
+    "rate": 0.963
+   }
+  },
+  "new_target_tokens": {
+   "1 token": {
+    "n": 266,
+    "retained": 182,
+    "rate": 0.6842
+   }
+  },
+  "pre_edit_true_logprob": {
+   "confident (> -1.5)": {
+    "n": 27,
+    "retained": 14,
+    "rate": 0.5185
+   },
+   "less confident (<= -1.5)": {
+    "n": 239,
+    "retained": 168,
+    "rate": 0.7029
+   }
+  },
+  "relation_min10": {
+   "P17": {
+    "n": 18,
+    "rate": 0.5556
+   },
+   "P276": {
+    "n": 11,
+    "rate": 0.3636
+   },
+   "P39": {
+    "n": 12,
+    "rate": 0.6667
+   },
+   "P495": {
+    "n": 15,
+    "rate": 0.8
+   },
+   "P30": {
+    "n": 19,
+    "rate": 0.6842
+   },
+   "P1303": {
+    "n": 17,
+    "rate": 0.7059
+   },
+   "P449": {
+    "n": 14,
+    "rate": 0.8571
+   },
+   "P136": {
+    "n": 21,
+    "rate": 0.8095
+   },
+   "P176": {
+    "n": 11,
+    "rate": 0.6364
+   },
+   "P178": {
+    "n": 12,
+    "rate": 0.6667
+   },
+   "P1412": {
+    "n": 11,
+    "rate": 0.5455
+   }
+  }
+ }
+}

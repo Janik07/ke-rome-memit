@@ -1,0 +1,26 @@
+# Versions used for the reported runs (Google Colab, Python 3.13, CUDA 13.0 driver 580.82.07)
+torch==2.11.0
+transformers==5.21.0
+# EasyEdit (commit 4c109870955a4522ac3d7cf10ad00f34de8e4f0d) dependencies, installed without pins
+# because EasyEdit's own requirements.txt fails to build on Python 3.13:
+hydra-core
+omegaconf
+higher
+einops
+nltk
+scikit-learn
+sentence-transformers
+peft
+sentencepiece
+rouge
+pyyaml
+gpustat
+iopath
+timm
+fairscale
+av
+opencv-python-headless
+openai
+zhipuai
+qwen_vl_utils
+matplotlib
