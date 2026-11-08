@@ -22,6 +22,7 @@ results/                sample.json (100 records, 3 orders), one JSON log per ru
                         error_cases.csv + error_summary.json (error/subgroup analysis),
                         compact_2nov/ (saved compact logs of the three runs executed on 2 Nov 2026)
 figures/                figures used in the report
+reproduction/           notebook and evidence archive of the independent reproduction (5-6 Nov 2026)
 requirements.txt        package versions used for the reported runs
 ```
 
@@ -63,6 +64,9 @@ python error_analysis.py /content/ke_results
 python plots.py /content/ke_results ../figures
 ```
 
+In a Colab notebook, prefix each command with `!` and use `%cd <dir>` instead of `cd <dir>`:
+each `!` line runs in its own shell, so a plain `!cd` does not change the directory for the next line.
+
 Default paths: EasyEdit in `/content/EasyEdit`, CounterFact in `/content/counterfact.json`, results in
 `/content/ke_results`. They can be changed with the environment variables `EE_DIR`, `KE_CF`, `KE_STATS`
 and `KE_OUT`; on Colab, pointing `KE_OUT` to a Google Drive folder keeps the run files if the session ends.
@@ -86,6 +90,8 @@ Transformers 5.22.0; all other runs used 5.21.0.
 An independent reproduction of all six runs from this README (Adilbekov Daniyal, 5-6 Nov 2026, Colab T4,
 Transformers 5.21.0) matched the sample, edit orders, per-edit success flags, checkpoint metrics and
 `summary.json` exactly; only run times differed.
+A second, partial reproduction (Kissamenov Alan, 6 Nov 2026) repeated ROME order 0 in full and MEMIT
+order 0 up to checkpoint 50; all observed values were identical to the files in `results/`.
 
 ## Data and licences
 
