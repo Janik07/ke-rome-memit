@@ -1,0 +1,26 @@
+TABLE 1 (after 100 edits; mean +- sample SD over 3 orders)
+Unedited baseline (identical in every run): {'rewrite_rate': 0.2, 'para_rate': 0.23, 'neigh_rate': 0.769, 'n': 100}
+
+ROME
+  Retention of shared earlier edits, % : 68.4 +- 11.5   (orders A, B, C: 66.67, 57.95, 80.68)
+  Immediate success, %                 : 99.0 +- 1.0   (orders A, B, C: 99.00, 100.00, 98.00)
+  Main prompts passing, %              : 66.7 +- 10.0   (orders A, B, C: 66.00, 57.00, 77.00)
+  Reworded prompts passing, %          : 66.2 +- 7.6   (orders A, B, C: 67.50, 58.00, 73.00)
+  Neighbourhood facts kept, %          : 56.8 +- 0.1   (orders A, B, C: 56.80, 56.70, 56.80)
+  Seconds per edit                     : 16.1 +- 0.5   (orders A, B, C: 16.65, 15.87, 15.82)
+  Minutes per run                      : 31.0 +- 0.9   (orders A, B, C: 32.10, 30.50, 30.50)
+
+MEMIT
+  Retention of shared earlier edits, % : 100.0 +- 0.0   (orders A, B, C: 100.00, 100.00, 100.00)
+  Immediate success, %                 : 90.3 +- 1.2   (orders A, B, C: 91.00, 89.00, 91.00)
+  Main prompts passing, %              : 92.3 +- 0.6   (orders A, B, C: 93.00, 92.00, 92.00)
+  Reworded prompts passing, %          : 82.0 +- 0.9   (orders A, B, C: 81.50, 81.50, 83.00)
+  Neighbourhood facts kept, %          : 77.1 +- 0.1   (orders A, B, C: 77.20, 77.20, 77.00)
+  Seconds per edit                     : 11.8 +- 0.1   (orders A, B, C: 11.69, 11.81, 11.75)
+  Minutes per run                      : 23.8 +- 0.2   (orders A, B, C: 23.80, 24.00, 23.70)
+
+TABLE 2 (retention after 100 edits, per order)
+Order A (seed 1): shared facts 90, ROME 66.7%, MEMIT 100.0%, difference -33.3 pp, 95% CI -43.3 to -23.3 pp, discordant MEMIT only / ROME only 30 / 0, exact McNemar p = 1.86e-09, Cohen's h = 1.23
+Order B (seed 2): shared facts 88, ROME 58.0%, MEMIT 100.0%, difference -42.0 pp, 95% CI -52.3 to -31.8 pp, discordant MEMIT only / ROME only 37 / 0, exact McNemar p = 1.46e-11, Cohen's h = 1.41
+Order C (seed 3): shared facts 88, ROME 80.7%, MEMIT 100.0%, difference -19.3 pp, 95% CI -28.4 to -11.4 pp, discordant MEMIT only / ROME only 17 / 0, exact McNemar p = 1.53e-05, Cohen's h = 0.91
+Mean difference -31.6 pp (range -42.0 to -19.3); Bonferroni level 0.05/3 = 0.0167
