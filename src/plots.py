@@ -1,4 +1,7 @@
-"""Figures for the report. Usage: python plots.py RUNS_DIR OUT_DIR (RUNS_DIR also holds summary.json)."""
+"""Figures 1-3 of the manuscript. Usage: python plots.py RUNS_DIR OUT_DIR
+
+RUNS_DIR must hold summary.json (Figures 1-2) and error_summary.json (Figure 3, written by error_analysis.py).
+"""
 import json
 import os
 import sys
@@ -14,6 +17,7 @@ COL = {"rome": "#2a78d6", "memit": "#eb6834"}
 MK = {"rome": "o", "memit": "s"}
 LBL = {"rome": "ROME", "memit": "MEMIT"}
 CPS = [10, 25, 50, 100]
+DPI = 300
 INK, MUTED, GRID = "#0b0b0b", "#52514e", "#e4e3df"
 
 plt.rcParams.update({"font.family": "DejaVu Sans", "font.size": 10, "axes.edgecolor": MUTED,
@@ -59,7 +63,7 @@ plot_lines(ax, per_order("retention"), "Retention of earlier edits (thin lines: 
 style(ax, "Share of earlier edits still passing")
 ax.set_xlim(5, 112)
 fig.tight_layout()
-fig.savefig(os.path.join(OUT, "fig1_retention.png"), dpi=200)
+fig.savefig(os.path.join(OUT, "fig1_retention.png"), dpi=DPI)
 
 # Figure 2: paraphrase and neighbourhood rates at each checkpoint, per method (mean over orders)
 fig, axes = plt.subplots(1, 2, figsize=(7.4, 3.4), sharey=True)
@@ -81,5 +85,47 @@ for ax, key, title in ((axes[0], "para_rate", "Reworded prompts (generalisation)
     style(ax, "Pass rate" if key == "para_rate" else "")
 axes[0].legend(frameon=False, loc="lower left")
 fig.tight_layout()
-fig.savefig(os.path.join(OUT, "fig2_para_neigh.png"), dpi=200)
+fig.savefig(os.path.join(OUT, "fig2_para_neigh.png"), dpi=DPI)
+
+# Figure 3: ROME retention by edit position (a) and categories of all failure cases (b)
+EPATH = os.path.join(D, "error_summary.json")
+if os.path.exists(EPATH):
+    E = json.load(open(EPATH))
+    fig, axes = plt.subplots(1, 2, figsize=(8.6, 3.5), gridspec_kw={"width_ratios": [1, 1.25]})
+    ax = axes[0]
+    pb = E["subgroups"]["position_block"]
+    names = list(pb.keys())
+    rates = [pb[k]["rate"] for k in names]
+    bars = ax.bar(range(len(names)), rates, color=COL["rome"], width=0.62)
+    for i, k in enumerate(names):
+        ax.annotate(f"{pb[k]['retained']}/{pb[k]['n']}", (i, rates[i]), xytext=(0, 3),
+                    textcoords="offset points", ha="center", fontsize=8, color=INK)
+    ax.set_xticks(range(len(names)))
+    ax.set_xticklabels(names)
+    ax.set_xlabel("Position of the edit in the sequence")
+    ax.set_ylabel("ROME retention after 100 edits")
+    ax.set_ylim(0, 1.1)
+    ax.yaxis.grid(True, color=GRID, linewidth=0.8)
+    ax.set_axisbelow(True)
+    ax.set_title("(a) ROME: retained edits by position", loc="left", color=INK, fontsize=10.5)
+    ax = axes[1]
+    cat = E["categories"]
+    rows = [("ROME lost: displaced", cat.get("ROME retention failure | rome | R2 displaced", 0), COL["rome"]),
+            ("ROME lost: reverted", cat.get("ROME retention failure | rome | R1 reverted", 0), COL["rome"]),
+            ("ROME not inserted", sum(v for k, v in cat.items() if k.startswith("insertion failure | rome")), COL["rome"]),
+            ("MEMIT not inserted", sum(v for k, v in cat.items() if k.startswith("insertion failure | memit")), COL["memit"]),
+            ("MEMIT lost", 0, COL["memit"])]
+    ys = list(range(len(rows)))[::-1]
+    ax.barh(ys, [r[1] for r in rows], color=[r[2] for r in rows], height=0.6)
+    for y, r in zip(ys, rows):
+        ax.annotate(str(r[1]), (r[1], y), xytext=(4, 0), textcoords="offset points", va="center", fontsize=9, color=INK)
+    ax.set_yticks(ys)
+    ax.set_yticklabels([r[0] for r in rows])
+    ax.set_xlabel("Number of cases (three orders pooled)")
+    ax.set_xlim(0, max(r[1] for r in rows) * 1.18)
+    ax.xaxis.grid(True, color=GRID, linewidth=0.8)
+    ax.set_axisbelow(True)
+    ax.set_title(f"(b) All {E['n_cases']} failure cases", loc="left", color=INK, fontsize=10.5)
+    fig.tight_layout()
+    fig.savefig(os.path.join(OUT, "fig3_subgroups_errors.png"), dpi=DPI)
 print("figures written to", OUT)
