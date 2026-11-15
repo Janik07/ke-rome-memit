@@ -1,0 +1,22 @@
+Facts that the unedited model already passes: 20
+
+1. Shared retention without pre-edit passes
+  Order A: ROME 62.9%, MEMIT 100.0%  n = 70, discordant MEMIT/ROME 26/0, exact McNemar p = 3.0e-08
+  Order B: ROME 52.9%, MEMIT 100.0%  n = 68, discordant MEMIT/ROME 32/0, exact McNemar p = 4.7e-10
+  Order C: ROME 75.0%, MEMIT 100.0%  n = 68, discordant MEMIT/ROME 17/0, exact McNemar p = 1.5e-05
+  Mean ROME: 63.6%
+  Mean MEMIT: 100.0%
+
+2. Intention-to-treat (all 99 earlier edits)
+  Order A: ROME 65.7%, MEMIT 92.9%
+  Order B: ROME 56.6%, MEMIT 91.9%
+  Order C: ROME 76.8%, MEMIT 91.9%
+  Mean ROME: 66.3%
+  Mean MEMIT: 92.3%
+
+3. Each method's own successful edits
+  Order A: ROME 66.3%, MEMIT 100.0%
+  Order B: ROME 56.6%, MEMIT 100.0%
+  Order C: ROME 78.4%, MEMIT 100.0%
+  Mean ROME: 67.1%
+  Mean MEMIT: 100.0%

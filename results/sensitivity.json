@@ -1,0 +1,56 @@
+{
+ "excluding_pre_pass": {
+  "A": {
+   "n": 70,
+   "rome": 62.857142857142854,
+   "memit": 100.0,
+   "discordant_memit_only": 26,
+   "discordant_rome_only": 0,
+   "mcnemar_p": 2.9802322387695312e-08
+  },
+  "B": {
+   "n": 68,
+   "rome": 52.94117647058823,
+   "memit": 100.0,
+   "discordant_memit_only": 32,
+   "discordant_rome_only": 0,
+   "mcnemar_p": 4.656612873077393e-10
+  },
+  "C": {
+   "n": 68,
+   "rome": 75.0,
+   "memit": 100.0,
+   "discordant_memit_only": 17,
+   "discordant_rome_only": 0,
+   "mcnemar_p": 1.52587890625e-05
+  }
+ },
+ "intention_to_treat": {
+  "A": {
+   "rome": 65.65656565656566,
+   "memit": 92.92929292929293
+  },
+  "B": {
+   "rome": 56.56565656565657,
+   "memit": 91.91919191919192
+  },
+  "C": {
+   "rome": 76.76767676767676,
+   "memit": 91.91919191919192
+  }
+ },
+ "own_success": {
+  "A": {
+   "rome": 66.3265306122449,
+   "memit": 100.0
+  },
+  "B": {
+   "rome": 56.56565656565657,
+   "memit": 100.0
+  },
+  "C": {
+   "rome": 78.35051546391753,
+   "memit": 100.0
+  }
+ }
+}

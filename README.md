@@ -20,6 +20,7 @@ src/analyze.py          retention, paired differences, exact McNemar test, boots
 src/report_numbers.py   prints every number of Tables 3-4 (means, SDs, exact p, Cohen's h)
 src/error_analysis.py   error and subgroup analysis -> error_cases.csv, error_summary.json (Table 5)
 src/plots.py            Figures 1-3
+src/sensitivity.py      alternative retention definitions (Section 4.1) -> sensitivity.json, sensitivity.txt
 src/from_compact.py     converts the compact per-run records (RESULT_JSON lines) into run files
 results/                sample.json (100 records, 3 orders), one JSON log per run, summary.json,
                         report_numbers.txt, error_cases.csv, error_summary.json,
@@ -38,6 +39,7 @@ requirements.txt        package versions used for the reported runs
 | Table 3 (outcomes after 100 edits) | `analyze.py`, then `report_numbers.py` | `results/summary.json`, `results/report_numbers.txt` |
 | Table 4 (per-order test) | `analyze.py`, then `report_numbers.py` | `results/summary.json`, `results/report_numbers.txt` |
 | Table 5 (failure cases), Section 4.5 subgroups | `error_analysis.py` | `results/error_cases.csv`, `results/error_summary.json` |
+| Section 4.1 sensitivity analyses | `sensitivity.py` (reads `baseline_main.json`) | `results/sensitivity.json`, `results/sensitivity.txt` |
 | Figures 1–2 | `plots.py` | `figures/fig1_retention.png`, `figures/fig2_para_neigh.png` |
 | Figure 3 | `plots.py` (reads `error_summary.json`) | `figures/fig3_subgroups_errors.png` |
 
@@ -54,6 +56,7 @@ python analyze.py ../results                          # Tables 3-4 -> results/su
 python report_numbers.py ../results/summary.json      # prints every number of Tables 3-4
 python error_analysis.py ../results                   # Table 5 -> error_cases.csv, error_summary.json
 python plots.py ../results ../figures                 # Figures 1-3
+python sensitivity.py ../results                      # Section 4.1 sensitivity analyses
 ```
 
 ## Environment
