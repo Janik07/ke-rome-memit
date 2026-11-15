@@ -26,7 +26,7 @@ results/                sample.json (100 records, 3 orders), one JSON log per ru
                         report_numbers.txt, error_cases.csv, error_summary.json,
                         compact_2nov/ (saved compact logs of the three runs executed on 2 Nov 2026)
 figures/                Figures 1-3 of the manuscript (300 dpi)
-reproduction/           notebook and evidence archive of the independent reproduction (5-6 Nov 2026)
+reproduction/           notebook and evidence archive of the re-execution by a co-author (5-6 Nov 2026)
 requirements.txt        package versions used for the reported runs
 ```
 
@@ -121,7 +121,7 @@ MEMIT order 2 were re-run on 3 Nov 2026 because their logs were lost when the Co
 their quality metrics matched the 2 Nov values exactly at every checkpoint. These three re-runs recorded
 Transformers 5.22.0; all other runs used 5.21.0.
 
-An independent reproduction of all six runs from this README (Adilbekov Daniyal, 5-6 Nov 2026, Colab T4,
+A re-execution of all six runs from this README by a co-author who had not performed the original runs (Adilbekov Daniyal, 5-6 Nov 2026, Colab T4,
 Transformers 5.21.0) matched the sample, edit orders, per-edit success flags, checkpoint metrics and
 `summary.json` exactly; only run times differed.
 
